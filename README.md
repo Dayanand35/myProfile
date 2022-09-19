@@ -1,3 +1,4 @@
 # myProfile
 # Technology stack: HTMLS
-# IDE -> VS code
+# IDE -> VS CODE
+
