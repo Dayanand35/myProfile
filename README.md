@@ -1,4 +1,7 @@
 # myProfile
 # Technology stack: HTMLS
-# IDE -> VS CODE
+
+# tool: jira
+# document: add influnce
+
 
