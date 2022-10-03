@@ -1,10 +1,61 @@
 <!DOCTYPE HTML>
 <head>
     <title> registration form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <style>
+        form table{
+        color:rgb(233, 170, 88);
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+     
+       }
+       input[type="text"]{
+        color: black;
+        
+        background-color: rgb(208, 160, 27);
+        width: 200px;
+        text-transform: uppercase
+        ;
+       }
+       input[type="email"]{
+        color: blue;
+        background-color: antiquewhite;
+       }
+       input[type="address"]{
+        text-transform: lowercase;
+        color: aquamarine;
+        background-color: bisque;
+       }
+       input[type="submit"]{
+        color: rgb(63, 11, 110);
+        background-color: rgb(125, 246, 250);
+        border-radius: 20px;
+       }
+       input[type="reset"]{
+        color: rgb(63, 11, 110);
+        background-color: rgb(146, 125, 250);
+        border-radius: 20px;
+       }
 
+    body{
+        background-color: black;
+    }
+    h2{
+        color: chartreuse(155, 7, 86);
+        font-size: xx-large;
+        text-transform: uppercase;
+        text-shadow: 5px 5px 3px white;
+    }
+            
+    </style>
 </head>
     <body>
-        <h2> student form</h2>
+        <fieldset>
+       <legend> <h2> student form</h2> </legend> 
+
         <form>
           <table> 
         <tbody>
@@ -31,6 +82,7 @@
             <tr>
                 <Td> DATE OF BIRTH</Td>
                 <TD> <input type="date"></TD>
+
             </tr>
             <tr>
                 <Td> PASS OUT YEAR</Td>
@@ -80,11 +132,12 @@
                 <td><input type="file" multiple></td>
             </tr>
             <tr>
-                <td><label> SUBMIT</label></td>
-                <td> <input type="button"></td>
+                <td> <input type="submit"></td>
+                <td> <input type="reset"></td>
             </tr>
            
             </table>
+        </fieldset>
         </tbody>
     </body>
 

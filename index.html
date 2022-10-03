@@ -9,59 +9,118 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
     <style>
-    #div_label{
-        font-style: oblique;
-        position: static;
+     #span_class{
         text-align: center;
-        font-size: larger;
-        background-color: rgb(138, 212, 212);
+        text-transform: uppercase;
         color: black;
-    }
-    .nav_label{
-        color: aquamarine;
-        background-color: blanchedalmond;
-        font-size: larger;
-        font-family: 'Sofia', cursive;;
-    }
+        background-color: rgb(155, 209, 209);
+        font-size: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: solid;
+        padding: 20px 20px 20px 20px;
+        text-shadow: 5px 6px 4px coral;
+         }
+         .personal{
+           text-align: center;
+           text-transform: uppercase;
+           font-size: 24px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           font-weight: bolder;
+           padding:  10px 10px 10px 10px ;
+           color: rgb(212, 130, 30);
+           margin: 40px;
+         }
+         #div_label{
+            text-align: center;
+            text-decoration: solid;
+            text-shadow: 10px;
+            margin-bottom: 20px;
+         }
+         #FOLLOW_ME{
+            padding: 20px 20px 20px 20px;
+            padding-top: 400;
+            margin-top: 30px;
+         }
+         .FONT_AWSOM{
+            padding: 20px  20px  20px  20px;
+            margin-right: 20px;
+            margin-left: 20px;
 
+         }
+             p{
+            font-size: 20px;
+            text-align: center;
+            padding: 20px  20px  20px  20px;
+            background-color: rgb(182, 213, 227);
+         }
+         /* body{
+            background-image: url(Maratha-King-Shivaji-Maharaj-Images-Pics.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+         } */
+         p{
+          background-color: aquamarine;
+         }
+         
+         .personal{
+            margin-right: 30px;
+         }
+
+         #FONT_AWSOM,p,a{
+            margin-right: 40PX;
+         }
+         .nav_label{
+            text-shadow: 4px 4px 5px rgb(19, 82, 201);
+            background-color: rgb(73, 250, 8);
+            margin-bottom: 20px;
+         }
+        .personal h1{
+            color: orangered;
+            background-color: aquamarine;
+            margin: 20ox 20px 20px 20px;
+         }
+         footer{
+            margin-top: 80px;
+         }
     </style>
 </head>
 
 <body>
+   
     <div id="div_label">
-        <header>
-            &nbsp;&nbsp;&nbsp; <a style="color: black; background-color: beige;"><i
-                    class="fa fa-address-book"></i>&nbsp; DAYANAND WANGVADE</a>
-            &nbsp;&nbsp;&nbsp;<a style="color: black; background-color: beige;"><i class="fa fa-phone"
-                    aria-hidden="true"></i></i>&nbsp; 8007803536 </a>
-            &nbsp;&nbsp;&nbsp;<a style="color: black; background-color: beige;"><i
-                    class="fa fa-envelope-square"></i>&nbsp;abd@gmail.com</a>
+        <header class="header_label">
+            <span id="span_class"><a><i class="fa fa-address-book"></i> DAYANAND WANGVADE</a></span>
+           <span  id="span_class"> <a><i class="fa fa-phone"></i> 8007803536 </a></span>
+           <span  id="span_class"><a><i class="fa fa-envelope-square"></i>abd@gmail.com</a></span> 
         </header>
     </div>
     <br>
-    <h1>HOME PAGE</h1>
+    <marquee direction="right" width="1700" height="50" behavior="sliding">
+        <h1 class="personal">HOME PAGE</h1>
+    </marquee>
+   
     <br>
     <nav class="nav_label">
-        <a href="home.html" target="my fram"> HOME </a>&nbsp; &nbsp;&nbsp;
-        <a href="personalDetail.html" target="my fram"> personalDetail </a> &nbsp;&nbsp;&nbsp;
-        <a href="traile2.html" target="my fram"> <U> traile2</U></a> &nbsp;&nbsp;&nbsp;
-        <a href="demo.html" target="my fram"> DEMO </a> &nbsp;&nbsp;&nbsp;
-        <a href="traile.html" target="my fram"> traile </a> &nbsp;&nbsp;&nbsp;
-        <a href="createTable.html" target="my fram"> createtable </a> &nbsp;&nbsp;&nbsp;
+        <span class="personal"><a href="home.html" target="my fram"> HOME </a></span>
+        <span class="personal"><a href="personalDetail.html" target="my fram"> personalDetail </a></span>
+         <span class="personal"><a href="traile2.html" target="my fram"> <U> traile2</U></a> </span>
+         <span class="personal"><a href="demo.html" target="my fram"> DEMO </a></span>
+         <span class="personal"><a href="traile.html" target="my fram"> traile </a> </span>
+         <span class="personal"><a href="createTable.html" target="my fram"> createtable </a></span>
     </nav>
-    <iframe name="my fram" scr="index.html" width="600" height="500">
+    <iframe name="my fram" scr="index.html" width="1400" height="500">
     </iframe>
-    <p>
-        <strong> Follow me </strong> &nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i>
-        </a>
-        &nbsp; &nbsp; &nbsp;
-        <a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        </a>
-        &nbsp; &nbsp; &nbsp;
-        <a href="https://twitter.com/" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
-        &nbsp; &nbsp; &nbsp;
+    <footer>
+       <p class="personal">
+       <span id="FOLLOW_ME"> Follow me</span>
+        <span id="FONT_AWSOME"><a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i> </a></span>
+       
+       <span id="FONT_AWSOME"> <a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span>
+     
+        <span id="FONT_AWSOME"><a href="https://twitter.com/" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i> </a></span>
+       
     </p>
+</footer>
 </body>
 
 </html>
